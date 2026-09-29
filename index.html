@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BUILT NOT STOCK. | E90 M3</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:#050505;
+  color:#fff;
+  font-family:Arial,Helvetica,sans-serif;
+  overflow-x:hidden;
+}
+
+/* HERO */
+.hero{
+  position:relative;
+  min-height:100svh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+  background:#000;
+}
+.hero video{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  object-position:center;
+  background:#000;
+}
+.hero::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:
+    linear-gradient(to bottom,rgba(0,0,0,.18),rgba(0,0,0,.42) 65%,#050505 100%);
+  pointer-events:none;
+}
+.hero-content{
+  position:relative;
+  z-index:2;
+  width:100%;
+  padding:0 7vw;
+  margin-top:42vh;
+}
+.eyebrow{
+  color:#e00000;
+  font-size:12px;
+  letter-spacing:.32em;
+  font-weight:bold;
+  margin-bottom:12px;
+}
+h1{
+  font-size:clamp(38px,8vw,92px);
+  line-height:.9;
+  letter-spacing:-.04em;
+  font-weight:900;
+}
+.sound{
+  position:absolute;
+  z-index:5;
+  right:22px;
+  bottom:25px;
+  border:1px solid rgba(255,255,255,.5);
+  background:rgba(0,0,0,.45);
+  color:#fff;
+  padding:11px 15px;
+  border-radius:999px;
+  font-size:11px;
+  letter-spacing:.14em;
+  cursor:pointer;
+  backdrop-filter:blur(8px);
+}
+
+/* CONTENT */
+section{
+  width:min(1100px,88vw);
+  margin:0 auto;
+  padding:90px 0;
+}
+.section-title{
+  display:flex;
+  align-items:end;
+  gap:15px;
+  margin-bottom:30px;
+}
+.section-title span{
+  color:#e00000;
+  font-size:11px;
+  letter-spacing:.2em;
+}
+.section-title h2{
+  font-size:28px;
+  letter-spacing:.08em;
+}
+.parts{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:1px;
+  background:#222;
+}
+.part{
+  background:#090909;
+  padding:25px;
+  min-height:120px;
+}
+.part h3{
+  font-size:13px;
+  color:#e00000;
+  letter-spacing:.18em;
+  margin-bottom:13px;
+}
+.part p{
+  color:#ddd;
+  font-size:15px;
+  line-height:1.8;
+}
+
+/* GALLERY */
+.gallery{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:10px;
+}
+.gallery img{
+  display:block;
+  width:100%;
+  height:auto;
+  object-fit:cover;
+  background:#111;
+}
+.gallery .wide{grid-column:1/-1}
+.exhaust{
+  width:min(600px,100%);
+  margin:45px auto 0;
+}
+.exhaust img{
+  width:100%;
+  display:block;
+}
+.caption{
+  color:#888;
+  font-size:10px;
+  letter-spacing:.15em;
+  margin-top:9px;
+  text-align:center;
+}
+
+footer{
+  text-align:center;
+  padding:70px 20px 100px;
+  color:#555;
+  font-size:10px;
+  letter-spacing:.2em;
+}
+
+@media(max-width:650px){
+  .hero-content{padding:0 24px;margin-top:45vh}
+  .parts{grid-template-columns:1fr}
+  .gallery{grid-template-columns:1fr}
+  .gallery .wide{grid-column:auto}
+  section{padding:65px 0}
+}
+
+/* subtle reveal */
+.reveal{
+  animation:fadeup .9s ease both;
+}
+@keyframes fadeup{
+  from{opacity:0;transform:translateY(20px)}
+  to{opacity:1;transform:none}
+}
+</style>
+</head>
+
+<body>
+
+<header class="hero">
+  <!-- GitHubに置く動画名は background.mp4 -->
+  <video id="bgVideo"
+    autoplay
+    muted
+    loop
+    playsinline
+    preload="auto">
+    <source src="background.mp4" type="video/mp4">
+  </video>
+
+  <div class="hero-content reveal">
+    <div class="eyebrow">BMW E90 M3</div>
+    <h1>BUILT<br>NOT STOCK.</h1>
+  </div>
+
+  <button class="sound" id="soundBtn">🔇 SOUND OFF</button>
+</header>
+
+<section>
+  <div class="section-title">
+    <span>01</span>
+    <h2>ENGINE</h2>
+  </div>
+  <div class="parts">
+    <div class="part">
+      <h3>DME</h3>
+      <p>3D Design DME Flash Program</p>
+    </div>
+    <div class="part">
+      <h3>AIR FILTER</h3>
+      <p>K&amp;N Replacement Air Filter</p>
+    </div>
+    <div class="part">
+      <h3>OIL FILTER</h3>
+      <p>ASAMI Engineering Racing Engine Oil Filter</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="section-title">
+    <span>02</span>
+    <h2>EXHAUST</h2>
+  </div>
+  <div class="parts">
+    <div class="part">
+      <h3>ONE-OFF CENTER PIPE</h3>
+      <p>2nd Catalyst → Z-Pipe Conversion</p>
+    </div>
+    <div class="part">
+      <h3>REAR PIECE</h3>
+      <p>POWER CRAFT</p>
+    </div>
+  </div>
+
+  <div class="exhaust">
+    <img src="oneoff_center_pipe.jpg" alt="One-off center pipe">
+    <div class="caption">ONE-OFF CENTER PIPE</div>
+  </div>
+</section>
+
+<section>
+  <div class="section-title">
+    <span>03</span>
+    <h2>SUSPENSION</h2>
+  </div>
+  <div class="parts">
+    <div class="part">
+      <h3>COILOVER</h3>
+      <p>SACHS RS-1</p>
+    </div>
+    <div class="part">
+      <h3>FRONT KNUCKLES</h3>
+      <p>F8x Front Knuckles Conversion</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="section-title">
+    <span>04</span>
+    <h2>WHEELS / BRAKES</h2>
+  </div>
+  <div class="parts">
+    <div class="part">
+      <h3>WHEELS</h3>
+      <p>TWS EXlete 105S</p>
+    </div>
+    <div class="part">
+      <h3>BRAKES</h3>
+      <p>F8x Calipers &amp; Rotors<br>GruppeM Stainless Mesh Brake Lines</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="section-title">
+    <span>05</span>
+    <h2>BODY</h2>
+  </div>
+  <div class="parts">
+    <div class="part">
+      <h3>LOWER REINFORCEMENT</h3>
+      <p>CPM LowerReinforcement</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="section-title">
+    <span>06</span>
+    <h2>GALLERY</h2>
+  </div>
+
+  <div class="gallery">
+    <img src="exterior_front.jpg" alt="E90 M3 front">
+    <img src="exterior_rear.jpg" alt="E90 M3 rear">
+    <img class="wide" src="exterior_side.jpg" alt="E90 M3 side">
+    <img src="interior_cluster.jpg" alt="Interior cluster">
+    <img src="interior_night.jpg" alt="Interior night">
+    <img class="wide" src="brakes.jpg" alt="F8x brakes">
+  </div>
+</section>
+
+<footer>
+  E90 M3 · BUILT NOT STOCK.
+</footer>
+
+<script>
+const video = document.getElementById('bgVideo');
+const btn = document.getElementById('soundBtn');
+
+btn.addEventListener('click', async () => {
+  try {
+    video.muted = false;
+    video.volume = 1;
+    await video.play();
+    btn.textContent = '🔊 SOUND ON';
+  } catch(e) {
+    video.muted = true;
+    btn.textContent = '🔇 TAP AGAIN';
+  }
+});
+
+video.addEventListener('volumechange', () => {
+  if(video.muted || video.volume === 0){
+    btn.textContent = '🔇 SOUND OFF';
+  }else{
+    btn.textContent = '🔊 SOUND ON';
+  }
+});
+</script>
+
+</body>
+</html>
