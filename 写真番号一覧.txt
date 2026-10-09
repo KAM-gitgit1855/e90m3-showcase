@@ -1,23 +1,38 @@
-写真番号一覧（サイト表示順・修正版）
+1.jpg ← 1000019757.jpg｜DME背景：黒いM3の工場リア写真
+2.jpg ← 1000019247.jpg｜ワンオフセンターパイプ
+3.jpg ← 1000019143.jpg｜SACHS RS-1 指定写真
+4.jpg ← 1000019784.jpg｜F8xフロントナックル
+5.jpg ← 1000019758.jpg｜K&Nエアフィルター
+6.jpg ← 1000019762.jpg｜ASAMI Engineeringオイルフィルター
+7.jpg ← 追加アップロード写真｜カスタムヘッドライト
+8.jpg ← 1000019688.jpg｜ミラー仕上げ写真
+9.jpg ← 1000019687.jpg｜リップ製作作業
+10.jpg ← 1000019608.jpg｜エンジン作業風景
+11.jpg ← 1000019598.jpg｜リアブレーキ作業
+12.jpg ← 1000019606.jpg｜サスペンション作業
+13.jpg ← 1000019604.jpg｜車両装着中のTHE M3プレート
+14.jpg ← 1000019593.jpg｜THE M3プレート製作物
+15.jpg ← 1000019244.jpg｜Interior アンビエントライト
+16.jpg ← 1000019605.jpg｜Interior センターコンソール
+17.jpg ← 1000019596.jpg｜Interior リアシート周辺
+18.jpg ← 1000019595.jpg｜Interior ドア下イルミネーション
+19.jpg ← 1000019615.jpg｜Interior 夜間の後席側
+20.jpg ← 1000019240.jpg｜Interior メーターパネル
+21.jpg ← 1000019676.jpg｜Gallery 外装写真 A
+22.jpg ← 1000019677.jpg｜Gallery 外装写真 B
+23.jpg ← 1000019678.jpg｜Gallery 外装写真 C
+24.jpg ← 1000019679.jpg｜Gallery 外装写真 D
+25.jpg ← 1000019680.jpg｜Gallery 外装写真 E
+26.jpg ← 1000019681.jpg｜Gallery 外装写真 F
+27.jpg ← 1000019684.jpg｜Gallery 外装写真 G
+28.jpg ← 1000019685.jpg｜Gallery 外装写真 H
+29.jpg ← 1000019686.jpg｜Gallery 外装写真 I
+30.jpg ← 1000019242.jpg｜Gallery 壁画前の外装
+31.jpg ← 1000019618.jpg｜Carry over 白い旧E90単体
+32.jpg ← 1000019616.jpg｜Carry over 白黒2台の切替
+33.jpg ← 1000019611.jpg｜Carry over ホイール単体
+34.jpg ← 1000019612.jpg｜Carry over ホイール装着状態
+35.jpg ← 追加アップロード写真｜F8xブレーキキャリパー
 
-1.jpg：DME FLASH 背景（工場での黒いM3リア写真）
-2.jpg：ワンオフセンターパイプ
-3.jpg：SACHS RS-1（指定された青いスプリングの写真）
-4.jpg：F8xフロントナックル
-5.jpg：K&Nエアフィルター（エンジンルーム）
-6.jpg：ASAMI Engineeringオイルフィルター
-7-8.jpg：ヘッドライト／外装仕上げ
-9-12.jpg：作業風景（各1枚ずつ）
-13.jpg：フロントバンパーに装着したTHE M3プレート
-14.jpg：製作したTHE M3ディスプレイプレート
-15-20.jpg：Interior（アンビエント、センターコンソール、後席、ドアイルミ、夜間、メーターパネル）
-21-30.jpg：Gallery外装写真（メーターパネル写真を重複使用しない）
-31.jpg：白い旧E90単体
-32.jpg：白黒2台並び
-33.jpg：ホイール単体
-34.jpg：黒いM3への装着写真
-35.jpg：F8xブレーキ装着写真
-36.jpg：外装ディテール
-
-動画：background.mp4
-※ index.html と画像・動画は同じフォルダに置いてください。
+36.jpg：BUILD BY HAND — バックカメラ用モニター取付写真（今回追加・黒余白トリミング）
+37.jpg：CARRY OVER — 以前の白いE90写真（今回追加・黒余白トリミング）
