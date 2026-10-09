@@ -1,0 +1,31 @@
+E90 M3 site - cropped photo replacement
+All numbered photo filenames are unchanged so index.html references still match.
+Removed black screenshot/letterbox bars where present.
+10.jpg and 34.jpg were cropped to remove phone gallery UI and keep only the photo.
+
+Cropped files:
+1.jpg: 691x1536 -> 691x1086
+4.jpg: 691x1536 -> 691x1020
+5.jpg: 691x1536 -> 691x526
+6.jpg: 691x1536 -> 691x527
+7.jpg: 691x1536 -> 691x528
+9.jpg: 691x1536 -> 691x527
+10.jpg: 691x1536 -> 691x525
+11.jpg: 691x1536 -> 691x529
+12.jpg: 691x1536 -> 691x928
+13.jpg: 691x1536 -> 691x527
+14.jpg: 691x1536 -> 691x527
+16.jpg: 691x1536 -> 691x703
+17.jpg: 691x1536 -> 691x930
+18.jpg: 691x1536 -> 691x931
+21.jpg: 691x1536 -> 691x1220
+22.jpg: 691x1536 -> 691x471
+24.jpg: 691x1536 -> 691x430
+25.jpg: 691x1536 -> 691x931
+26.jpg: 691x1536 -> 691x921
+27.jpg: 691x1536 -> 691x470
+28.jpg: 691x1536 -> 691x469
+31.jpg: 691x1536 -> 691x526
+32.jpg: 691x1536 -> 691x771
+33.jpg: 691x1536 -> 691x527
+34.jpg: 691x1536 -> 691x720
